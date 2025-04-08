@@ -85,7 +85,7 @@ def equation_extend():
         addFn('sqrt',"sqrt({0:s})","\\sqrt{{{0:s}}}",1,np.sqrt)
         addConst("pi",np.pi)
         addConst("e",np.e)
-        addConst("Inf",np.Inf)
+        addConst("Inf",np.inf)
         addConst("NaN",np.NaN)
     else:
         addFn('floor',"floor({0:s})","\\lfloor {0:s} \\rfloor",1,math.floor)
