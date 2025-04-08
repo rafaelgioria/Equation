@@ -86,7 +86,7 @@ def equation_extend():
         addConst("pi",np.pi)
         addConst("e",np.e)
         addConst("Inf",np.inf)
-        addConst("NaN",np.NaN)
+        addConst("NaN",np.nan)
     else:
         addFn('floor',"floor({0:s})","\\lfloor {0:s} \\rfloor",1,math.floor)
         addFn('ceil',"ceil({0:s})","\\lceil {0:s} \\rceil",1,math.ceil)
